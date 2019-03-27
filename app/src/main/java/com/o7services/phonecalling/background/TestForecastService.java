@@ -29,6 +29,7 @@ import java.util.ArrayList;
 
 public class TestForecastService extends IntentService {
 
+    int a;
     String android_id;
     private static final String TAG = "MoonWalker";
     NotificationCompat.Builder notificationBuilder;
